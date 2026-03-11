@@ -1,6 +1,7 @@
 import "./App.css";
 import Profissao, { Muquifo } from "./Profissao";
 import Contador from "./Contador";
+import Formulario from "./formulario";
 
 function Pessoa() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <div>
       <Pessoa />
       <Contador />
+      <Formulario />
     </div>
   );
 }
