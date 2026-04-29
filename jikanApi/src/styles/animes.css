@@ -1,0 +1,22 @@
+/* Seção da lista de animes */
+
+.animes-section {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.animes-section h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.anime-grid {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  /* centraliza o grid */
+  justify-items: center;
+  /* centraliza cada card */
+}

@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+/*CSS dos Card*/
+/* remove sublinhado geral */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* card */
+.personagens-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.personagens-card:hover {
+  transform: translateY(-4px);
+}
+
+/* largura maior */
+.personagens-card,
+.card-info {
+  width: 210px;
+  /* 👈 aumentei */
+}
+
+/* imagem */
+.personagens-card img {
+  width: 100%;
+  height: 300px;
+  /* 👈 maior */
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* info */
+.card-info {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  text-align: center;
+  /* 👈 centraliza texto */
+  align-items: center;
+  /* 👈 centraliza elementos */
+}
+
+/* título */
+.card-info h3 {
+  font-size: 1rem;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  /* limita em 2 linhas */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* nota de avaliação */
+.personagem-score {
+  font-size: 0.85rem;
+  color: #facc15;
+}
+
+/* sinopse */
+.personagem-synopsis {
+  font-size: 0.8rem;
+  color: #aaa;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

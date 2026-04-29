@@ -1,0 +1,43 @@
+.home {
+  color: #fff;
+  padding: 20px;
+}
+
+.home-hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.home-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.home-hero p {
+  color: #aaa;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Seção da lista de animes */
+
+.home-section {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home-section h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.anime-grid {
+  display: flex;
+  gap: 50px;
+
+  justify-content: center;
+  /* centraliza o grid */
+  justify-items: center;
+  /* centraliza cada card */
+}
