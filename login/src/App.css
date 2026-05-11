@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e1e1e;
+  font-family: 'Inter', sans-serif;
+  color: #dcddde;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form {
+  background: #262626;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 40px 36px;
+  width: 360px;
+}
+
+/* Cabeçalho */
+.header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.icon {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #e8e8e8;
+  margin-bottom: 4px;
+}
+
+/* Campos */
+.campo-grupo {
+  margin-bottom: 14px;
+}
+
+label {
+  display: block;
+  font-size: 0.78rem;
+  color: #888;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.campo {
+  width: 100%;
+  background: #1e1e1e;
+  border: 1px solid #3a3a3a;
+  border-radius: 6px;
+  padding: 10px 12px;
+  color: #dcddde;
+  font-size: 0.9rem;
+  font-family: 'Inter', sans-serif;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.campo:focus {
+  border-color: #7c3aed;
+}
+
+.campo::placeholder {
+  color: #444;
+}
+
+/* Botão */
+.btn {
+  width: 100%;
+  padding: 11px;
+  margin-top: 8px;
+  background: #7c3aed;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn:hover {
+  background: #6d28d9;
+}
+
+.btn:active {
+  background: #5b21b6;
+}
+
+/* Mensagens */
+.msg {
+  margin-top: 16px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.sucesso {
+  background: #1a2e22;
+  border: 1px solid #2d4a38;
+  color: #6ee7b7;
+}
+
+.erro {
+  background: #2e1a1a;
+  border: 1px solid #4a2d2d;
+  color: #fca5a5;
+}
+
+.ponto {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #7c3aed;
+  margin-right: 6px;
+  vertical-align: middle;
+}
